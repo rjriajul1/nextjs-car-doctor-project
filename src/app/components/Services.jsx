@@ -17,7 +17,7 @@ const Services = async () => {
           <div key={item._id}>
             <div className="border p-6 rounded-md border-gray-300 ">
               <img
-                className="rounded-2xl w-full h-45 object-cover"
+                className="rounded-2xl w-full h-52 object-cover"
                 src={item.img}
                 alt="does not support this image"
               />
