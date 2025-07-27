@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <div>
           <Navbar/>
         </div>
-        <main className="min-h-[calc(100vh-284px)] bg-red-500">
+        <main className="min-h-[calc(100vh-284px)]">
           {children}
         </main>
         <div>
