@@ -27,9 +27,14 @@ const Services = async () => {
                 <p><FaLongArrowAltRight color="red" size={20}/></p>
               </div>
             </div>
+            
           </div>
         ))}
+       
       </div>
+       <div className="flex justify-center py-6">
+          <button className="btn btn-outline text-red-500 hover:text-white rounded-md transition-all duration-500 hover:bg-red-500 ">More Services</button>
+        </div>
     </div>
   );
 };
