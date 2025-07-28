@@ -8,7 +8,7 @@ const Services = async () => {
     <div>
       <h4 className="text-red-500 text-center font-bold py-5">Service</h4>
       <h1 className="font-bold text-5xl text-center py-5">Our Services Area</h1>
-      <p className="text- text-center mb-12">
+      <p className="text-xs text-center mb-12">
         the majority have suffered alteration in some form, by injected humour,
         or randomised <br /> words which don't look even slightly believable.{" "}
       </p>
@@ -24,17 +24,19 @@ const Services = async () => {
               <h1 className="font-bold text-2xl py-4">{item.title}</h1>
               <div className="flex justify-between items-center">
                 <p className="text-red-500">price: ${item.price}</p>
-                <p><FaLongArrowAltRight color="red" size={20}/></p>
+                <p>
+                  <FaLongArrowAltRight color="red" size={20} />
+                </p>
               </div>
             </div>
-            
           </div>
         ))}
-       
       </div>
-       <div className="flex justify-center py-6">
-          <button className="btn btn-outline text-red-500 hover:text-white rounded-md transition-all duration-500 hover:bg-red-500 ">More Services</button>
-        </div>
+      <div className="flex justify-center py-6">
+        <button className="btn btn-outline text-red-500 hover:text-white rounded-md transition-all duration-500 hover:bg-red-500 ">
+          More Services
+        </button>
+      </div>
     </div>
   );
 };

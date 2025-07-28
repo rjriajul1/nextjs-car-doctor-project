@@ -1,6 +1,7 @@
 import AboutUs from "./components/AboutUs";
 import Banner from "./components/Banner";
 import ContactUs from "./components/ContactUs";
+import OurProducts from "./components/OurProducts";
 import Services from "./components/Services";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
        <AboutUs/>
        <Services/>
        <ContactUs/>
+       <OurProducts/>
    </div>
   );
 }
