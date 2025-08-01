@@ -1,3 +1,5 @@
+
+import Button from "@/components/ui/button";
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
@@ -33,9 +35,7 @@ const Services = async () => {
         ))}
       </div>
       <div className="flex justify-center py-6">
-        <button className="btn btn-outline text-red-500 hover:text-white rounded-md transition-all duration-500 hover:bg-red-500 ">
-          More Services
-        </button>
+        <Button name={"More Services"}/>
       </div>
     </div>
   );

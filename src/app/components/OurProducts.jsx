@@ -1,3 +1,4 @@
+import Button from "@/components/ui/button";
 import Image from "next/image";
 import React from "react";
 import { IoStarOutline } from "react-icons/io5";
@@ -19,10 +20,12 @@ const OurProducts = () => {
         {/* card 1 */}
         <div className="border border-gray-400 rounded-2xl">
           <figure className="p-6 w-full">
-            <img
-              className="mx-auto  bg-gray-300 p-3  rounded-md max-w-[215px]"
-              src="/assets/images/products/1.png"
-            />
+            <div className="bg-gray-300 rounded-md h-[215px]">
+              <img
+                className="mx-auto  p-3   max-w-[215px]"
+                src="/assets/images/products/1.png"
+              />
+            </div>
           </figure>
           <div className="text-center">
             <p className="flex justify-center gap-2">
@@ -39,10 +42,12 @@ const OurProducts = () => {
         {/* card 2 */}
         <div className="border border-gray-400 rounded-2xl">
           <figure className="p-6">
-            <img
-              className="mx-auto w-full bg-gray-300 p-3  rounded-md max-w-[215px]"
-              src="/assets/images/products/2.png"
-            />
+            <div className="rounded-md bg-gray-300 h-[215px]">
+              <img
+                className="mx-auto w-full p-3  max-w-[215px]"
+                src="/assets/images/products/2.png"
+              />
+            </div>
           </figure>
           <div className="text-center">
             <p className="flex justify-center gap-2">
@@ -59,10 +64,12 @@ const OurProducts = () => {
         {/* card 3 */}
         <div className="border border-gray-400 rounded-2xl">
           <figure className="p-6">
-            <img
-              className="mx-auto w-full bg-gray-300 p-3  rounded-md max-w-[215px]"
-              src="/assets/images/products/3.png"
-            />
+            <div className="rounded-md bg-gray-300 h-[215px]">
+              <img
+                className="mx-auto w-full p-3  max-w-[215px]"
+                src="/assets/images/products/3.png"
+              />
+            </div>
           </figure>
           <div className="text-center">
             <p className="flex justify-center gap-2">
@@ -78,11 +85,13 @@ const OurProducts = () => {
         </div>
         {/* card 4 */}
         <div className="border border-gray-400 rounded-2xl">
-          <figure className="p-6 ">
-            <img
-              className="mx-auto w-full bg-gray-300  rounded-md max-w-[215px]"
-              src="/assets/images/products/4.png"
-            />
+          <figure className="p-6">
+            <div className="rounded-md bg-gray-300 h-[215px]">
+              <img
+                className="mx-auto w-full p-3  max-w-[215px]"
+                src="/assets/images/products/4.png"
+              />
+            </div>
           </figure>
           <div className="text-center">
             <p className="flex justify-center gap-2">
@@ -98,11 +107,13 @@ const OurProducts = () => {
         </div>
         {/* card 5 */}
         <div className="border border-gray-400 rounded-2xl">
-          <figure className="p-6 min-h-[215px]">
-            <img
-              className="mx-auto w-full bg-gray-300 p-3  rounded-md max-w-[215px]"
-              src="/assets/images/products/5.png"
-            />
+          <figure className="p-6">
+            <div className="rounded-md bg-gray-300 h-[215px]">
+              <img
+                className="mx-auto w-full p-3  max-w-[215px]"
+                src="/assets/images/products/5.png"
+              />
+            </div>
           </figure>
           <div className="text-center">
             <p className="flex justify-center gap-2">
@@ -118,11 +129,13 @@ const OurProducts = () => {
         </div>
         {/* card 6 */}
         <div className="border border-gray-400 rounded-2xl">
-          <figure className="p-6 ">
-            <img
-              className="mx-auto w-full bg-gray-300 p-3  rounded-md max-w-[215px]"
-              src="/assets/images/products/6.png"
-            />
+          <figure className="p-6">
+            <div className="rounded-md bg-gray-300 h-[215px]">
+              <img
+                className="mx-auto w-full p-3  max-w-[215px]"
+                src="/assets/images/products/6.png"
+              />
+            </div>
           </figure>
           <div className="text-center">
             <p className="flex justify-center gap-2">
@@ -135,6 +148,11 @@ const OurProducts = () => {
             <h2 className="font-bold text-2xl py-4">Cools Led Light</h2>
             <p className="text-red-500 font-bold mb-4">$20.00</p>
           </div>
+        </div>
+      </div>
+      <div>
+        <div className="flex justify-center">
+          <Button name={"More Products"}/>
         </div>
       </div>
     </div>
