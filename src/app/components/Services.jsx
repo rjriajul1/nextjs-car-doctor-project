@@ -1,11 +1,15 @@
 
 import Button from "@/components/ui/button";
+import dbConnect from "@/lib/dbConnect";
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Services = async () => {
-  const res = await fetch("http://localhost:3000/services.json");
-  const data = await res.json();
+  // const res = await fetch("http://localhost:3000/services.json");
+  // const data = await res.json();
+  const services = dbConnect("services");
+  const data = await services.find({}).toArray()
+  console.log(data);
   return (
     <div>
       <h4 className="text-red-500 text-center font-bold py-5">Service</h4>
@@ -21,7 +25,7 @@ const Services = async () => {
               <img
                 className="rounded-2xl w-full h-52 object-cover"
                 src={item.img}
-                alt="does not support this image"
+                alt="this is a image"
               />
               <h1 className="font-bold text-2xl py-4">{item.title}</h1>
               <div className="flex justify-between items-center">
