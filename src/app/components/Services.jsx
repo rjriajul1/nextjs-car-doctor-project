@@ -31,7 +31,7 @@ const Services = async () => {
               <div className="flex justify-between items-center">
                 <p className="text-red-500">price: ${item.price}</p>
                 <p>
-                  <FaLongArrowAltRight color="red" size={20} />
+                  <FaLongArrowAltRight color="red" size={21} />
                 </p>
               </div>
             </div>
