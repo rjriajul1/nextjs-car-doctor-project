@@ -14,7 +14,7 @@ const Banner = () => {
             src="/assets/images/banner/1.jpg"
             alt="Banner 1"
           />
-          <div className=" hidden  absolute z-50 top-18 -right-16 text-white max-w-xl space-y-5">
+          <div className=" hidden  absolute z-40 top-18 -right-16 text-white max-w-xl space-y-5">
             <h1 className="text-xl  md:text-6xl text-left font-bold leading-tight">
               Affordable <br /> Price For Car <br /> Servicing
             </h1>
